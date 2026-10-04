@@ -1,0 +1,29 @@
+ steps :
+1.install git
+2.open cmd -- type git and check
+3.git config --global user.name"" --- give username in github
+  git config --global user.email ""
+4.create a folder called git anywhere
+5.open vs code -- open that created folder inside git
+now we are going to copy the repo called test in GitHub to our local created git folder:
+1.go to terminal in git 
+2.give git clone "give origin url from gitthub"
+3. now you can see that in ur local
+4. now u need to navigate to ur new folder for that : cd (change directory) test
+now we are going to ctreate a file in local and push to GitHub
+1. create a neew file called demo
+2.it will be marked as U (untracked)
+3. give git status command ( now u see that unytracked as red)
+4.now move from working to local repositpy
+5. use git add demo.txt (now u can see U changed as A)
+6.again check git status now u can see in green but mentioned as to be commited
+7.use git commit -m "message"
+8. now in local repo
+9. now git push origin main
+here origin --- refer to link we pasted earlier
+here main ---- specific branch inside that repo( because a repo can have multiple branches)
+
+note : for first time user when trying to push it asks for sign in
+
+now try to do a change in GitHub show how pull works, first time only clone then pull
+
